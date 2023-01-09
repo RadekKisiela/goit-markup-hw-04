@@ -91,6 +91,13 @@
   padding-left: 24px;
   padding-top: 20px;
 }
+.title4 {
+  color: var(--text-color-quaternary);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+}
 .background {
   background-color: var(--background-color-primary);
 }
@@ -106,6 +113,9 @@
   background: url(/images/overlay.jpg) no-repeat;
   background-size: cover;
 }
+.gradient {
+  background-image: rgba(47, 48, 58, 0.4);
+}
 .background4 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
@@ -113,7 +123,10 @@
 .background3 {
   background-color: var(--background-color-primary);
 }
-
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
 .button1 {
   color: var(--text-color-quaternary);
   font-weight: 700;
@@ -163,6 +176,9 @@
   display: flex;
   justify-content: space-between;
 }
+.list2 {
+  list-style: none;
+}
 .list3 {
   list-style: none;
   display: flex;
@@ -176,9 +192,10 @@
   margin-bottom: 50px;
   justify-content: center;
 }
-
-.list2 {
+.list5 {
   list-style: none;
+  display: flex;
+  gap: 70px;
 }
 .names {
   color: var(--text-color-primary);
@@ -211,6 +228,10 @@
 .border3 {
   border: 1px solid rgba(236, 236, 236, 1);
 }
+.border4 {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
 .link {
   color: var(--text-color-senary);
   text-decoration: none;
@@ -230,6 +251,7 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  margin-left: 10px;
 }
 .link2:hover,
 .link2:focus {
@@ -272,4 +294,14 @@
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.footer-social {
+  background: rgba(255, 255, 255, 0.1);
 }
