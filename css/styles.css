@@ -60,7 +60,6 @@
   font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 26px;
-  text-align: center;
   line-height: 1.17;
 }
 .title1 {
@@ -69,6 +68,9 @@
   font-size: 44px;
   line-height: 1.36;
   margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title2 {
@@ -101,6 +103,8 @@
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background: url(/images/overlay.jpg) no-repeat;
+  background-size: cover;
 }
 .background4 {
   background-color: var(--background-color-tertiary);
@@ -226,12 +230,12 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-left: 50px;
 }
 .link2:hover,
 .link2:focus {
   color: var(--text-color-tertiary);
 }
+
 .address {
   color: var(--text-color-quaternary);
   font-size: 14px;
