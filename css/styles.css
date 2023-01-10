@@ -29,7 +29,12 @@
   margin-right: 46px;
   letter-spacing: 0.02em;
 }
-
+.border4:hover,
+.border4:focus,
+.icons:focus .icons:hover .link2:hover,
+.link2:focus,
+.link:hover,
+.link:focus,
 .headline:hover,
 .headline:focus {
   color: var(--text-color-tertiary);
@@ -239,10 +244,6 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.link:hover,
-.link:focus {
-  color: var(--text-color-tertiary);
-}
 
 .link2 {
   color: var(--text-color-quinary);
@@ -252,10 +253,6 @@
   line-height: 1.17;
   letter-spacing: 0.02em;
   margin-left: 10px;
-}
-.link2:hover,
-.link2:focus {
-  color: var(--text-color-tertiary);
 }
 
 .address {
@@ -303,5 +300,4 @@
   gap: 10px;
 }
 .footer-social {
-  background: rgba(255, 255, 255, 0.1);
 }
