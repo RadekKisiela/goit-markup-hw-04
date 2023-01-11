@@ -29,9 +29,8 @@
   margin-right: 46px;
   letter-spacing: 0.02em;
 }
-.border4:hover,
-.border4:focus,
-.icons:focus .icons:hover .link2:hover,
+
+.link2:hover,
 .link2:focus,
 .link:hover,
 .link:focus,
@@ -128,10 +127,6 @@
 .background3 {
   background-color: var(--background-color-primary);
 }
-.clients {
-  display: flex;
-  justify-content: space-between;
-}
 .button1 {
   color: var(--text-color-quaternary);
   font-weight: 700;
@@ -160,6 +155,7 @@
 .button2:focus {
   color: var(--text-color-quaternary);
   background-color: var(--background-color-quaternary);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
 }
 .lorem {
   color: var(--text-color-primary);
@@ -230,12 +226,24 @@
   background: var(--background-color-primary);
   border: 1px solid #eee;
 }
+.border2:hover {
+  background: var(--background-color-primary);
+  border: 1px solid #eee;
+  box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
 .border3 {
   border: 1px solid rgba(236, 236, 236, 1);
 }
 .border4 {
   border: 1px solid #afb1b8;
   border-radius: 4px;
+}
+.client-icons:hover,
+.client-icons:focus * {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  fill: #2196f3;
 }
 .link {
   color: var(--text-color-senary);
@@ -252,7 +260,7 @@
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  margin-left: 10px;
+  gap: 10px;
 }
 
 .address {
@@ -299,5 +307,51 @@
   padding-bottom: 30px;
   gap: 10px;
 }
+.icons {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+.icons:hover,
+.icons:focus * {
+  fill: rgba(33, 150, 243, 1);
+}
+.icons-social {
+  fill: #afb1b8;
+}
+
+.button-social {
+  border: none;
+  background-color: #fff;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 12px;
+}
+.button-social:hover,
+.button-social:focus * {
+  background: #2196f3;
+  fill: #fff;
+}
+.client-icons {
+  fill: #afb1b8;
+  width: 170px;
+  height: 92px;
+}
 .footer-social {
+  fill: #fff;
+}
+.footer-button {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 12px;
+  border: none;
+}
+.footer-button:hover,
+.footer-button:focus {
+  background: #2196f3;
 }
