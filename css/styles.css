@@ -110,6 +110,7 @@
 }
 .background2 {
   background-color: var(--background-color-tertiary);
+  opacity: 0.6;
   font-style: normal;
   text-align: center;
   padding-top: 200px;
@@ -117,9 +118,7 @@
   background: url(/images/overlay.jpg) no-repeat;
   background-size: cover;
 }
-.gradient {
-  background-image: rgba(47, 48, 58, 0.4);
-}
+
 .background4 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
@@ -303,7 +302,7 @@
   align-items: center;
 }
 .icons:hover,
-.icons:focus * {
+.icons:focus {
   fill: rgba(33, 150, 243, 1);
 }
 .icons-social {
@@ -319,10 +318,13 @@
   cursor: pointer;
   padding: 12px;
 }
-.button-social:hover *,
-.button-social:focus * {
+.button-social:hover,
+.button-social:focus {
   border: none;
   background: #2196f3;
+}
+.button-social:focus .icons-social,
+.button-social:hover .icons-social {
   fill: #fff;
 }
 .client-icons {
@@ -333,7 +335,7 @@
   height: 92px;
 }
 .client-icons:hover,
-.client-icons:focus * {
+.client-icons:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
   fill: #2196f3;
