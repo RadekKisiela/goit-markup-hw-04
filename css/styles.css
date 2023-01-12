@@ -235,16 +235,6 @@
 .border3 {
   border: 1px solid rgba(236, 236, 236, 1);
 }
-.border4 {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-}
-.client-icons:hover,
-.client-icons:focus * {
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-  fill: #2196f3;
-}
 .link {
   color: var(--text-color-senary);
   text-decoration: none;
@@ -330,14 +320,23 @@
   padding: 12px;
 }
 .button-social:hover,
-.button-social:focus * {
+.button-social:focus {
+  border: none;
   background: #2196f3;
   fill: #fff;
 }
 .client-icons {
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   width: 170px;
   height: 92px;
+}
+.client-icons:hover,
+.client-icons:focus * {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  fill: #2196f3;
 }
 .footer-social {
   fill: #fff;
