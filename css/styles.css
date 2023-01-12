@@ -319,8 +319,8 @@
   cursor: pointer;
   padding: 12px;
 }
-.button-social:hover,
-.button-social:focus {
+.button-social:hover *,
+.button-social:focus * {
   border: none;
   background: #2196f3;
   fill: #fff;
