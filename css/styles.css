@@ -109,15 +109,16 @@
   background-color: var(--background-color-quinary);
 }
 .background2 {
-  background: url(/images/overlay.jpg) no-repeat;
   background-color: var(--background-color-tertiary);
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 80%),
+    url(/images/overlay.jpg);
+
   font-style: normal;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-size: cover;
 }
-
 .background4 {
   background-color: var(--background-color-tertiary);
   font-style: normal;
