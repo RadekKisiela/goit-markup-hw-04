@@ -109,13 +109,12 @@
   background-color: var(--background-color-quinary);
 }
 .background2 {
+  background: url(/images/overlay.jpg) no-repeat;
   background-color: var(--background-color-tertiary);
-  opacity: 0.6;
   font-style: normal;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background: url(/images/overlay.jpg) no-repeat;
   background-size: cover;
 }
 
